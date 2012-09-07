@@ -155,7 +155,7 @@ class SearchQuerySet(object):
     def _fill_cache(self, start, end, **kwargs):
         # Tell the query where to start from and how many we'd like.
         self.query._reset()
-        self.query.set_limits(start, end)
+        # self.query.set_limits(start, end)
         results = self.query.get_results(**kwargs)
 
         if results == None or len(results) == 0:
