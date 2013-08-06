@@ -20,6 +20,7 @@ Table Of Contents
    debugging
 
    migration_from_1_to_2
+   python3
    contributing
 
    best_practices
@@ -27,6 +28,7 @@ Table Of Contents
    faceting
    autocomplete
    boost
+   signal_processors
    multiple_index
    rich_content_extraction
    spatial
